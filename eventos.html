@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Eventos</title>
     <link rel="shortcut icon" href="./imagenes/iconoStrong.ico" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" rel="stylesheet">
@@ -11,6 +11,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Freeman&display=swap" rel="stylesheet">
 </head>
+<style>
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        padding-top: 10rem;
+        margin-bottom: 2rem; 
+    }
+
+    #miCarrusel {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    #miCarrusel .carousel-inner {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    #miCarrusel .carousel-item img {
+        width: 50rem;
+        height: 50rem;
+        object-fit: cover;
+    }
+</style>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="containerPadre" style="background-color: #000000;">
@@ -45,24 +69,58 @@
             </a>
         </div>
     </nav>
-    <main style="padding: 2rem">
-        <div class="main-content" id="mainInicio" style="background-color: #ffffff;padding: 10rem;margin: 4rem;"></div>
-            <section>
-                <h2 class="mb-4">Nosotros</h2>
-                <p>Somos una empresa con alcance nacional, consolidada en el estado Lara, ubicada en la zona industrial 1 en la ciudad de Barquisimeto. Nos dedicamos a la fabricación de fluidos para vehículos, y somos especialistas en liga de frenos y refrigerantes de alta calidad.</p>
-            </section>
-            <section>
-                <h2 class="mt-5 mb-4">Misión</h2>
-                <p>Nuestra misión es fabricar fluidos que optimicen el rendimiento de los vehículos de los venezolanos, para convertirnos en la empresa líder del país; mediante el trabajo organizado de nuestro personal de comprobada capacidad y experiencia cuya dedicación nos permite ofrecer productos de calidad premium para el cuidado de su vehículo.</p>
-            </section>
-            <section>
-                <h2 class="mt-5 mb-4">Visión</h2>
-                <p>Nuestra visión está enfocada en brindar productos con excelentes cualidades a todos nuestros consumidores con fórmulas eficientes que garanticen la seguridad de sus vehículos y trascender internacionalmente como una empresa que fabrica productos de alto rendimiento con calidad de exportación.</p>
-            </section>
-        </div>
-    </main>        
 
-    <!-- Footer --> 
+    <!-- Contenido Principal -->
+    <main>
+        <div class="carousel-container">
+            <div id="miCarrusel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagenes/imagen11111.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen22222.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen33333.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen44444.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen5555.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen6666.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen7777.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/imagen888888.jpeg" alt="Evento" class="d-block w-100 img-fluid">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="main-content" id="mainInicio" style="background-color: #ffffff; padding-bottom: 50px; text-align: center;">
+            <div class="container">
+                <h1 class="mt-5">Stron en la Expo Páez 2024: Promoviendo la Industria Nacional</h1>
+                <p class="lead">
+                    La marca venezolana Stron, especialista en fluidos para vehículos, participó en la Expo Páez 2024, un evento agroindustrial celebrado en el Municipio Páez, Estado Portuguesa. La comitiva, encabezada por su CEO, Ana Cecilia Montilla, y varios distribuidores regionales, compartió durante tres días con representantes de diversas empresas agrícolas e industriales, así como con el público general. Montilla expresó su agradecimiento por la invitación y destacó la importancia de estos eventos para fortalecer la industria nacional y dar visibilidad a las marcas locales. A pesar de las lluvias dispersas, la participación de Stron fue notable y bien recibida.
+                </p>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
     <footer class="footer" id="footerInicio" style="background-color: #000000;color: #ffffff;padding: 20px 20px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
         <div style="display: flex;align-items: center;">
             <img src="/imagenes/strong_png.png" class="imagenPngLogo" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
@@ -92,9 +150,9 @@
         </div>
     </footer>
 
-        <!-- Enlace a los scripts de JavaScript de Bootstrap -->
+    <!-- Enlace a los scripts de JavaScript de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
