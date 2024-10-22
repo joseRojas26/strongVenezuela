@@ -10,30 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Freeman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<style>
-    .carousel-container {
-        display: flex;
-        justify-content: flex-end;
-        padding-top: 5rem;
-    }
 
-    #miCarrusel {
-        width: 600px;
-        height: 400px;
-    }
-
-    #miCarrusel .carousel-inner {
-        width: 100%;
-        height: 100%;
-    }
-
-    #miCarrusel .carousel-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-</style>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="containerPadre" style="background-color: #000000;">
@@ -77,102 +56,80 @@
                 <div class="container d-flex">
                     <div class="containerHijoNav" style="padding-top: 17rem;">
                         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; padding: 20px;">
-                            <h1>Bienvenidos a Stron: Líderes en Fluidos Automotrices</h1>
-                            <!-- <p>Bienvenidos a la página oficial de Stron! Somos una empresa venezolana comprometida con la fabricación y comercialización de productos de alta calidad para el cuidado y mantenimiento de tu vehículo. En Stron, ofrecemos una amplia gama de fluidos para frenos DOT-4 y DOT-3, así como refrigerantes Coolant, diseñados para garantizar la máxima seguridad y rendimiento de tu automóvil. Nos enorgullece servir a nuestros clientes con productos confiables y un servicio excepcional, manteniendo siempre los más altos estándares de calidad. ¡Gracias por elegir Stron, tu aliado en el camino hacia una conducción segura y eficiente.</p> -->
+                            <h1 class="h1Bienvenidos">Bienvenidos a Stron: Líderes en Fluidos Automotrices</h1>
                         </div>
                     </div>
-                    <!-- <div class="carousel-container">
-                        <div id="miCarrusel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="/imagenes/aceite-motor-coche_1695321056.jpg" class="d-block w-100 img-fluid" alt="Aceite de motor">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="/imagenes/anticongelante-perdida_1695386592.jpg" class="d-block w-100 img-fluid" alt="Anticongelante">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="/imagenes/cambiar-liquido-de-los-frenos.jpg" class="d-block w-100 img-fluid" alt="Liquido de frenos">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Anterior</span>
-                            </a>
-                            <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Siguiente</span>
-                            </a>
-                        </div>
-                    </div> -->
                 </div>    
             </div>    
 
-            <div class="container" style="background-color: #000000; padding: 24px; border-radius: 10px; box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);">
-                <div class="row">
-                    <div class="col-12 d-flex flex-wrap justify-content-center">
-                        <div class="p-2">
-                            <a href="/productos.html">
-                                <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 18rem;">
-                                    <img src="/imagenes/fluidoFreno.jpeg" class="card-img-top" alt="Fluido para frenos DOT-4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Fluido para frenos DOT-4</h5>
-                                    </div>
+            <div class="container" style="background-image: url(/imagenes/Designer.jpeg); padding: 24px; border-radius: 10px; box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-md-3 mb-4">
+                        <a href="/productos.html">
+                            <div class="card h-100" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                                <img src="/imagenes/fluidoFrenoSinFondo.png" class="card-img-top" alt="Fluido para frenos DOT-4" style="object-fit: cover; height: 75%;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Fluido para frenos DOT-4</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="/productos.html">
-                                <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 18rem;">
-                                    <img src="/imagenes/fluidoFrenos.jpeg" class="card-img-top" alt="Fluido para frenos">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Fluido para frenos DOT-3</h5>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="col-6 col-sm-4 col-md-3 mb-4">
+                        <a href="/productos.html">
+                            <div class="card h-100" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                                <img src="/imagenesNuevas/dot 3 946.png" class="card-img-top" alt="Fluido para frenos DOT-3" style="object-fit: cover; height: 75%;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Fluido para frenos DOT-3</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="/productos.html">
-                                <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 18rem;">
-                                    <img src="/imagenes/refrigerante2.jpeg" class="card-img-top" alt="Refrigerante rojo">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Refrigerante Coolant rojo</h5>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="col-6 col-sm-4 col-md-3 mb-4">
+                        <a href="/productos.html">
+                            <div class="card h-100" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                                <img src="/imagenesNuevas/refrigerante coolant naranja copia.png" class="card-img-top" alt="Refrigerante rojo" style="object-fit: cover; height: 75%;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Refrigerante Coolant rojo</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="/productos.html">
-                                <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 18rem;">
-                                    <img src="/imagenes/refrigeranteCoolant.jpeg" class="card-img-top" alt="refrigerante verde">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Refrigerante Coolant verde</h5>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="col-6 col-sm-4 col-md-3 mb-4">
+                        <a href="/productos.html">
+                            <div class="card h-100" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                                <img src="/imagenesNuevas/refrigerante coolant verde.png" class="card-img-top" alt="Refrigerante verde" style="object-fit: cover; height: 75%;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Refrigerante Coolant verde</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="/productos.html">
-                                <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 18rem;">
-                                    <img src="/imagenes/naranja.jpg" class="card-img-top" alt="refrigerante verde">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Refrigerante Coolant naranja</h5>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="col-6 col-sm-4 col-md-3 mb-4">
+                        <a href="/productos.html">
+                            <div class="card h-100" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                                <img src="/imagenesNuevas/refrigerante coolant naranja-plateado copia.png" class="card-img-top" alt="Refrigerante naranja" style="object-fit: cover; height: 75%;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <h5 class="card-title">Refrigerante Coolant naranja</h5>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             
-            <div class="container" style="background-color: #000000 ;padding: 24px;border-radius: 10px;margin-top: 12%; box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);">
-                <h1 style="display: flex;justify-content: center; color: #ffffff"><strong>Nuestros  distribuidores</strong></h1>
+            <div class="container" style="background-image: url(/imagenes/Designer.jpeg); padding: 24px;border-radius: 10px;margin-top: 12%; box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);">
+                <h1 style="display: flex;justify-content: center; color: #ffffff"><strong>Nuestros distribuidores</strong></h1>
                 <div class="row">
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/amalub21/">
-                                <img src="/imagenes/AMALUS.jpg" class="card-img-top" alt="Amalub21">
+                                <img src="/imagenes/AMALUS.jpg" class="card-img-top" alt="Amalub21" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora Amalub XXI</h5>
                                 <p class="card-text">Ubicación: 7ma avenida catia, Caracas 1040. Caracas Venezuela</p>
                                 <p class="card-text">Contacto: amalub21@gmail.com. 0412-2284205.</p>
@@ -180,11 +137,11 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://instagram.com/lubritodola10ca/">
-                                <img src="/imagenes/lubritodo10.jpg" class="card-img-top" alt="Lubritodo10Ca">
+                                <img src="/imagenes/lubritodo10.jpg" class="card-img-top" alt="Lubritodo10Ca" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora Lubritodo10Ca</h5>
                                 <p class="card-text">Ubicación: Av 10 Entre Calle 59 y 60, Diagonal a la Panadería Lila.</p>
                                 <p class="card-text">Contacto: 0412-2585506.</p>
@@ -192,11 +149,11 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="www.venefrenos.com">
-                                <img src="/imagenes/venefrenos.jpg" class="card-img-top" alt="Venefrenos.ca">
+                                <img src="/imagenes/venefrenos.jpg" class="card-img-top" alt="Venefrenos.ca" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora Venefrenos.ca</h5>
                                 <p class="card-text">Ubicación: Castillito, av. 64 c/c calle 99, Parcela L-18, Galpones 1, 2 y 3. San Diego, estado Carabobo.</p>
                                 <p class="card-text">Contacto: 0414-4979792.</p>
@@ -204,11 +161,11 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/turmocars/?igsh=bXBqcnprbHpoN21z">
-                                <img src="/imagenes/turmocars.jpg" class="card-img-top" alt="TurmoCars c.a">
+                                <img src="/imagenes/turmocars.jpg" class="card-img-top" alt="TurmoCars c.a" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora TurmoCars c.a</h5>
                                 <p class="card-text">Ubicación: carrera 23 entre calles 19 y 20 Nro19-31 local N2 CATEDEL 3001, Carrera 23, Barquisimeto 3001, Lara, Venezuela</p>
                                 <p class="card-text">Contacto: 0414-4979792.</p>
@@ -216,28 +173,28 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/grupotrebol.ca/?igsh=MTRlbnk2eXMwZzFveg%3D%3D">
-                                <img src="/imagenes/trebol.jpg" class="card-img-top" alt="GrupoTrebol.ca">
+                                <img src="/imagenes/trebol.jpg" class="card-img-top" alt="GrupoTrebol.ca" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora GrupoTrebol.ca</h5>
                                 <p class="card-text">Ubicación: Santa Barbara del Zulia - Maracaibo
-                                                        Sur del Lago de Maracaibo, Caja Seca
-                                                        San Cristobal
-                                                        Merida - El Vigia
-                                                        Costa Oriental del Lago
+                                    Sur del Lago de Maracaibo, Caja Seca
+                                    San Cristobal
+                                    Merida - El Vigia
+                                    Costa Oriental del Lago
                                 </p>
                                 <p class="card-text">Contacto: admin.trebol@inlutreca.com 0424-7409811.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://suministroscor.com">
-                                <img src="/imagenes/suministroscors.jpg" class="card-img-top" alt="SuministrosCor">
+                                <img src="/imagenes/suministroscors.jpg" class="card-img-top" alt="SuministrosCor" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora SuministrosCor</h5>
                                 <p class="card-text">Ubicación: Av. Los Agricultores Troncal 5, entre calles 25 y 26. Acarigua, Edo. Portuguesa, Venezuela</p>
                                 <p class="card-text">Contacto: info@suministroscor.com 0412-6777000.</p>
@@ -245,11 +202,11 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/rnrealca/?igsh=bjV6Y2R2NDdqYjFi">
-                                <img src="/imagenes/rn.jpg" class="card-img-top" alt="RN">
+                                <img src="/imagenes/rn.jpg" class="card-img-top" alt="RN" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora RN</h5>
                                 <p class="card-text">Ubicación: Av 6 entre 6 y 7 sector Ruiz Pineda, Barquisimeto. Oeste y norte de Barquisimeto, estado Lara</p>
                                 <p class="card-text">Contacto: 04263598175.</p>
@@ -257,11 +214,11 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-3 mb-4">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card h-100 d-flex flex-column" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/lubricantesmarc?igsh=Nzc4enA0a3NqNTF5">
-                                <img src="/imagenes/marc.jpg" class="card-img-top" alt="Marc">
+                                <img src="/imagenes/marc.jpg" class="card-img-top" alt="Marc" style="object-fit: cover; height: 150px;">
                             </a>
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Distribuidora Marc</h5>
                                 <p class="card-text">Ubicación: San Diego terrazas de Castillito. Valencia, Estado Carabobo, Venezuela.</p>
                                 <p class="card-text">Contacto: 0414-4969570.</p>
@@ -269,14 +226,14 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3 mb-4 mx-auto">
-                        <div class="card" style="background-image: url(/imagenes/Designer.jpeg); color: #ffffff; border: none; border-radius: 10px;">
+                        <div class="card" style="background-color: #000000; color: #ffffff; border: none; border-radius: 10px;">
                             <a href="https://www.instagram.com/mafercalub/?igsh=OWg0b21kYjg3dHRw">
                                 <img src="/imagenes/mafer.jpg" class="card-img-top" alt="Mafer C,A">
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Distribuidora Mafer C,A</h5>
                                 <p class="card-text">Ubicación: Calle Carvajal, entre Montilla y Olmedilla Sector el Centro. Estado Barinas, Venezuela.
-                                                    Av Internacional San Fernanado - Biruaca Edificio Esakri Pb. Estado Apure, Venezuela.
+                                    Av Internacional San Fernanado - Biruaca Edificio Esakri Pb. Estado Apure, Venezuela.
                                 </p>
                                 <p class="card-text">Contacto: 0414-4969570.</p>
                             </div>
@@ -284,14 +241,13 @@
                     </div>
                 </div>
             </div>
-            
         </div>   
     </main>
 
     <!-- Footer -->
     <footer class="footer" id="footerInicio" style="background-color: #000000;color: #ffffff;padding: 20px 20px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
         <div style="display: flex;align-items: center;">
-            <img src="/imagenes/strong_png.png" class="imagenPngLogo" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
+            <img src="/imagenes/strong_png.png" class="imagenPngLogoFooter" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
             <div>
                 <a href="https://www.instagram.com/Stron.Ve" target="_blank" style="color: #ffffff;margin-right: 10px;">
                     <i class="bi bi-instagram" style="font-size: 2rem;"></i>
@@ -310,7 +266,7 @@
             </div>
             <div style="text-align: center;">
                 <i class="bi bi-envelope" style="font-size: 2rem;"></i>
-                <p style="margin: 0;">Correo: <strong>invefluidca@gmail.com</strong></p>
+                <p style="margin: 0;">Correo: <strong>invefldir1@gmail.com</strong></p>
             </div>
         </div>
         <div style="width: 200px; padding-right: 6%">

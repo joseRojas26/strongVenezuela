@@ -10,31 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Freeman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<style>
-    .carousel-container {
-        display: flex;
-        justify-content: center;
-        padding-top: 10rem;
-        margin-bottom: 2rem; 
-    }
 
-    #miCarrusel {
-        width: 50rem;
-        height: 50rem;
-    }
-
-    #miCarrusel .carousel-inner {
-        width: 50rem;
-        height: 50rem;
-    }
-
-    #miCarrusel .carousel-item img {
-        width: 50rem;
-        height: 50rem;
-        object-fit: cover;
-    }
-</style>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="containerPadre" style="background-color: #000000;">
@@ -71,48 +49,48 @@
     </nav>
 
     <!-- Contenido Principal -->
-    <main>
-        <div class="carousel-container">
-            <div id="miCarrusel" class="carousel slide" data-ride="carousel" data-interval="2000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+    <main id="containerEventos">
+        <div class="carruselEventos carousel-container">
+            <div id="miCarruselEvento" class="carousel slide" data-ride="carousel">
+                <div class="containerCarruselHijo carousel-inner">
+                    <div class="carruselImagenes carousel-item active">
                         <img src="/imagenes/imagen11111.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen22222.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen33333.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen44444.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen5555.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen6666.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen7777.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carruselImagenes carousel-item">
                         <img src="/imagenes/imagen888888.jpeg" alt="Evento" class="d-block w-100 img-fluid">
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#miCarruselEvento" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Anterior</span>
                 </a>
-                <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#miCarruselEvento" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Siguiente</span>
                 </a>
             </div>
         </div>
 
-        <div class="main-content" id="mainInicio" style="background-color: #ffffff; padding-bottom: 50px; text-align: center;">
-            <div class="container">
+        <div class="main-content" id="mainInicioEventos" style="background-color: #ffffff; padding-bottom: 50px; text-align: center;">
+            <div class="containerHijoEventos">
                 <h3><small>LA MARCA DE ORIGEN LARENSE ACOMPAÑÓ LA EXPO FERIA</small></h3>
                 <h1 class="mt-5"><strong>Stron en la Expo Páez 2024: Promoviendo la Industria Nacional</strong></h1>
                 <br>
@@ -120,7 +98,7 @@
                 <br>
                 <h5>16.06.2024 – Páez, Portuguesa, Venezuela - Lcdo. Daniel Orellana Montilla</h5>
                 <br>
-                <p class="lead">
+                <p class="parrafoPrincipal lead">
                     Representantes de la marca nacional Stron se presentaron en la Expo Feria Páez 
                     2024 para acompañar por tres días consecutivos a AFALUB (Asociación Venezolana 
                     de fabricantes de grasas y aceites lubricantes), en el marco del evento agroindustrial 
@@ -146,7 +124,7 @@
     <!-- Footer -->
     <footer class="footer" id="footerInicio" style="background-color: #000000;color: #ffffff;padding: 20px 20px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
         <div style="display: flex;align-items: center;">
-            <img src="/imagenes/strong_png.png" class="imagenPngLogo" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
+            <img src="/imagenes/strong_png.png" class="imagenPngLogoFooter" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
             <div>
                 <a href="https://www.instagram.com/Stron.Ve" target="_blank" style="color: #ffffff;margin-right: 10px;">
                     <i class="bi bi-instagram" style="font-size: 2rem;"></i>
@@ -165,7 +143,7 @@
             </div>
             <div style="text-align: center;">
                 <i class="bi bi-envelope" style="font-size: 2rem;"></i>
-                <p style="margin: 0;">Correo: <strong>invefluidca@gmail.com</strong></p>
+                <p style="margin: 0;">Correo: <strong>invefldir1@gmail.com</strong></p>
             </div>
         </div>
         <div style="width: 200px; padding-right: 6%">

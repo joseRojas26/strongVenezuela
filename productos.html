@@ -10,30 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Freeman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<style>
-    .carousel-container {
-        display: flex;
-        justify-content: flex-end;
-        padding-top: 5rem;
-    }
 
-    #miCarrusel {
-        width: 600px;
-        height: 400px;
-    }
-
-    #miCarrusel .carousel-inner {
-        width: 100%;
-        height: 100%;
-    }
-
-    #miCarrusel .carousel-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-</style>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="containerPadre" style="background-color: #000000;">
@@ -77,33 +56,10 @@
                 <div class="carousel-container" style="display: flex; justify-content: center; padding-top: 10rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ">
                     <div id="miCarrusel" class="carousel slide" data-ride="carousel" data-interval="2000">
                         <div class="carousel-inner" style="width: 100%;">
-                            <div class="carousel-item active">
-                                <img src="/imagenes/file (1).jpg" alt="Productos"class="d-block w-100 img-fluid">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/imagenes/file (2).jpg" alt="Productos"class="d-block w-100 img-fluid">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/imagenes/file (3).jpg" alt="Productos"class="d-block w-100 img-fluid">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/imagenes/file (4).jpg" alt="Productos"class="d-block w-100 img-fluid">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/imagenes/file (5).jpg" alt="Productos"class="d-block w-100 img-fluid">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/imagenes/file (6).jpg" alt="Productos"class="d-block w-100 img-fluid">
+                            <div class="carrucelProductos carousel-item active">
+                                <img src="/imagenesNuevas/WhatsApp_Image_2024-10-17_at_10.01.12_AM__1_-removebg.png" alt="Productos"class="d-block w-100 img-fluid">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -121,39 +77,58 @@
                     </div>
                     <div class="col-12 col-md-6 mb-4">
                         <div class="card d-flex flex-row" style="color: #000000; border: none; border-radius: 10px; align-items: center;">
-                            <img src="/imagenes/fluidoFrenos.jpeg" class="card-img-left" alt="Fluido para frenos" style="width:225px; height: auto; border-radius: 10px 0 0 10px;">
+                            <img src="/imagenesNuevas/dot 3 946.png" class="card-img-left" alt="Fluido para frenos" style="width:225px; height: auto; border-radius: 10px 0 0 10px;">
                             <div class="card-body">
                                 <h5 class="card-title">Fluido para frenos DOT-3</h5>
                                 <p class="card-text">El fluido de frenos DOT-3 es un producto estándar de alta calidad formulado para garantizar un funcionamiento seguro y eficiente del sistema de frenos en vehículos. Ideal para la mayoría de automóviles y camiones ligeros, este fluido proporciona una excelente resistencia al vapor y protección contra la corrosión, asegurando la fiabilidad del sistema de frenado bajo condiciones normales de uso.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-4">
-                        <div class="card d-flex flex-row" style="color: #000000; border: none; border-radius: 10px; align-items: center;">
-                            <img src="/imagenes/refrigerante2.jpeg" class="card-img-left" alt="Refrigerante rojo" style="width:225px; height: auto; border-radius: 10px 0 0 10px;">
-                            <div class="card-body">
-                                <h5 class="card-title">Refrigerante Coolant rojo</h5>
-                                <p class="card-text">ST-COOL50 es un refrigerante anticongelante formulado a base de etilenglicol y inhibidores orgánicos de corrosión. Diseñado para proporcionar protección completa a los sistemas de enfriamiento, este refrigerante viene prediluido en una proporción de 50/50, listo para ser utilizado sin necesidad de diluciones adicionales. Ofrece una solución conveniente y efectiva para mantener la temperatura óptima del motor y proteger contra la corrosión.</p>
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant naranja copia.png" class="img-fluid" alt="Refrigerante rojo" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant verde.png" class="img-fluid" alt="Refrigerante verde" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant naranja-plateado copia.png" class="img-fluid" alt="Refrigerante naranja" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant naranja copia.png" class="img-fluid" alt="Refrigerante rojo" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant verde.png" class="img-fluid" alt="Refrigerante verde" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card" style="border: none;">
+                                            <img src="/imagenesNuevas/refrigerante coolant naranja-plateado copia.png" class="img-fluid" alt="Refrigerante naranja" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-4">
-                        <div class="card d-flex flex-row" style="color: #000000; border: none; border-radius: 10px; align-items: center;">
-                            <img src="/imagenes/refrigeranteCoolant.jpeg" class="card-img-left" alt="refrigerante verde" style="width:225px; height: auto; border-radius: 10px 0 0 10px;">
-                            <div class="card-body">
-                                <h5 class="card-title">Refrigerante Coolant verde</h5>
-                                <p class="card-text">ST-COOL50 es un refrigerante anticongelante formulado a base de etilenglicol y inhibidores orgánicos de corrosión. Diseñado para proporcionar protección completa a los sistemas de enfriamiento, este refrigerante viene prediluido en una proporción de 50/50, listo para ser utilizado sin necesidad de diluciones adicionales. Ofrece una solución conveniente y efectiva para mantener la temperatura óptima del motor y proteger contra la corrosión.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 mb-4">
-                        <div class="card d-flex flex-row" style="color: #000000; border: none; border-radius: 10px; align-items: center;">
-                            <img src="/imagenes/naranja.jpg" class="card-img-left" alt="refrigerante naranja" style="width:225px; height: auto; border-radius: 10px 0 0 10px;">
-                            <div class="card-body">
-                                <h5 class="card-title">Refrigerante Coolant verde</h5>
-                                <p class="card-text">ST-COOL50 es un refrigerante anticongelante formulado a base de etilenglicol y inhibidores orgánicos de corrosión. Diseñado para proporcionar protección completa a los sistemas de enfriamiento, este refrigerante viene prediluido en una proporción de 50/50, listo para ser utilizado sin necesidad de diluciones adicionales. Ofrece una solución conveniente y efectiva para mantener la temperatura óptima del motor y proteger contra la corrosión.</p>
-                            </div>
-                        </div>
+                    <div class="mt-4">
+                        <h5>Refrigerantes Coolant</h5>
+                        <p>ST-COOL50 es un refrigerante anticongelante formulado a base de etilenglicol y inhibidores orgánicos de corrosión. Diseñado para proporcionar protección completa a los sistemas de enfriamiento, este refrigerante viene prediluido en una proporción de 50/50, listo para ser utilizado sin necesidad de diluciones adicionales. Ofrece una solución conveniente y efectiva para mantener la temperatura óptima del motor y proteger contra la corrosión.</p>
                     </div>
                 </div>
             </div>
@@ -163,7 +138,7 @@
     <!-- Footer -->
     <footer class="footer" id="footerInicio" style="background-color: #000000;color: #ffffff;padding: 20px 20px;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
         <div style="display: flex;align-items: center;">
-            <img src="/imagenes/strong_png.png" class="imagenPngLogo" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
+            <img src="/imagenes/strong_png.png" class="imagenPngLogoFooter" alt="Logo Strong" style="width: 200px;height: auto;margin-bottom: 10px;">
             <div>
                 <a href="https://www.instagram.com/Stron.Ve" target="_blank" style="color: #ffffff;margin-right: 10px;">
                     <i class="bi bi-instagram" style="font-size: 2rem;"></i>
@@ -182,7 +157,7 @@
             </div>
             <div style="text-align: center;">
                 <i class="bi bi-envelope" style="font-size: 2rem;"></i>
-                <p style="margin: 0;">Correo: <strong>invefluidca@gmail.com</strong></p>
+                <p style="margin: 0;">Correo: <strong>invefldir1@gmail.com</strong></p>
             </div>
         </div>
         <div style="width: 200px; padding-right: 6%">
