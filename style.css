@@ -88,7 +88,7 @@ main {
 }
 
 
-@media (max-width: 390px)  and (max-width: 576px)
+@media (max-width: 768px) 
 {
     .navbar {
         position: static;
@@ -213,13 +213,11 @@ main {
     }
 
     .carousel-container {
-        padding-top: 5rem !important;
         position: absolute !important;
-        top: 80% !important;
+        top: 54% !important;
         left: 50% !important;
         transform: translate(-50%, -50%) !important;
-        width: 90% !important;
-        max-width: 22rem !important;
+        max-width: 39rem !important;
     }
 
     .carrucelProductos img {
@@ -280,16 +278,16 @@ main {
     }
 
     .containerCarruselHijo img {
-        width: 100% !important; 
-        height: auto !important; 
-        border-radius: 10px !important; 
-        padding-top: 80px  !important;
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 10px !important;
+        padding-top: 80px !important;
     }
 
     #mainInicioEventos {
-        padding: 1rem !important;
+        padding: 3rem !important;
         text-align: left !important;
-        margin-top: 70vh !important;
+        margin-top: 58vh !important;
     }
 
     .containerHijoEventos h1, h3, h4, h5, p {
@@ -310,8 +308,8 @@ main {
     }
 
     #containerContactos {
-        padding: 1rem !important;
-        margin: 0 auto !important;
+        padding: 6rem !important;
+        margin: 6rem auto !important;
         width: 100% !important;
     }
 
@@ -353,6 +351,25 @@ main {
     
     .imagenDot4 {
         width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+    .dot3 {
+        top: 36% !important;
+    }
+
+    #mainInicioEventos {
+        margin-top: 83vh !important;
+    }
+
+    .containerCarruselHijo img {
+        padding-top: 100% !important;
+    }
+
+    #containerContactos {
+        margin: 2rem auto !important;
     }
 }
 
