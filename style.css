@@ -293,13 +293,13 @@ main {
         width: 100% !important;
         height: auto !important;
         border-radius: 10px !important;
-        padding-top: 80px !important;
+        padding-top: 50rem!important;
     }
 
     #mainInicioEventos {
         padding: 3rem !important;
         text-align: left !important;
-        margin-top: 43vh !important;
+        margin-top: 100vh !important;
     }
 
     .containerHijoEventos h1, h3, h4, h5, p {
