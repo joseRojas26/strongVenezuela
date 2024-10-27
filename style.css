@@ -88,7 +88,7 @@ main {
 }
 
 
-@media (max-width: 320px)
+@media (min-width: 320px) and (max-width: 768px) 
 {
     .navbar {
         position: static !important;
