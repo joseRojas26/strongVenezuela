@@ -1,3 +1,36 @@
+.distributor-section {
+    background-image: url('/imagenes/Designer.jpeg');
+    padding: 24px;
+    border-radius: 10px;
+    margin-top: 12%;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2);
+}
+
+.location {
+    margin-left: 16%;
+}
+
+.custom-card {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card .card-img-top {
+    object-fit: cover;
+    height: 150px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
 
 #mainInicioNosotros {
     padding: 2rem; 
@@ -81,17 +114,26 @@ main {
     flex: 1; 
 }
 
-.alfalub {
-    width: 100%;
-    height: auto;
-    margin-left: 20%;
+.carta {
+    font-size: 100%;
 }
-
 
 @media (min-width: 320px) and (max-width: 768px) 
 {
     .navbar {
         position: static !important;
+    }
+
+    .cartaDot4 {
+        margin-top: -1% !important;
+    }
+
+    .wspNav{
+        margin-right: 0px !important;;
+    }
+
+    .instagramNav {
+        padding-right: 4rem !important;;
     }
 
     .imagenPngLogo {
@@ -166,25 +208,19 @@ main {
         width: 100px !important;
         height: auto !important;
         margin-bottom: 0px !important;
-        margin-right: 60px !important;
-        margin-left: 15px !important;
+        margin-right: 2px !important;
+        margin-left: -4px !important;
     }
 
     .footer a {
         color: #ffffff !important;
-        margin-right: 5px !important;
+        margin-right: 7px !important;
     }
 
     .location, .footer > div {
         text-align: center !important;
         margin: 0 5px !important;
         flex-grow: 1 !important;
-    }
-
-    #footerInicio img.alfalub {
-        width: 80px !important; 
-        height: auto !important; 
-        margin: 0 auto !important; 
     }
 
     .card {
@@ -201,12 +237,12 @@ main {
     }
 
     .card-body {
+        text-align: justify !important;
         padding: 10px  !important; 
     }
 
-    .card-title {
-        font-size: 0.8rem  !important; 
-        margin-bottom: 5px  !important; 
+    .cartasIndex {
+        font-size: 0.7rem !important;
     }
 
     .card-text {
@@ -251,7 +287,7 @@ main {
 
     #mainInicioNosotros {
         position: relative !important;
-        top: 147px !important;
+        top: 16rem !important;
         left: 0 !important;
         width: 100% !important;
         padding: 1rem !important;
@@ -303,7 +339,7 @@ main {
     }
 
     .containerHijoEventos h1, h3, h4, h5, p {
-        font-size: 77% !important;
+        font-size: 100% !important;
     }
 
     .containerHijoEventos h1 {
@@ -362,14 +398,18 @@ main {
     }
     
     .imagenDot4 {
-        width: 100% !important;
+        width: 40% !important;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) 
+@media (min-width: 769px) and (max-width: 1024px) 
 {
     .dot3 {
         top: 36% !important;
+    }
+
+    .carta {
+        font-size: 100% !important;
     }
 
     .h1Bienvenidos {
@@ -377,7 +417,7 @@ main {
     }
 
     h5 {
-        font-size: 0.9rem !important;
+        font-size: 1.3rem !important;
     }
 
     .containerIndex {
@@ -388,6 +428,10 @@ main {
         padding-top: 0rem !important;
     }
 
+    .navbar .imagenPngLogo{
+        position: static !important;
+    }
+
     .imagenPngLogo {
         width: 18% !important;
         position: fixed !important;
@@ -395,20 +439,39 @@ main {
         top: 53px !important;
     }
 
+    .cartasIndex {
+        margin-bottom: -2.25rem !important;
+        font-size: 0.9rem !important;
+    }
+    
+
+    .imagenPrincipalProductos {
+        top: 63% !important;
+    }
+
     #mainInicioEventos {
-        margin-top: 83vh !important;
+        margin-top: 130vh !important;
     }
 
     .containerCarruselHijo img {
-        padding-top: 100% !important;
+        padding-top: 50% !important;
+        height: 120rem !important;
+    }
+
+    .mainInicio {
+        margin-top: 45% !important;
     }
 
     #containerContactos {
         margin: 2rem auto !important;
     }
 
+    .imagenProductoInicio {
+        width: 100% !important;
+    }
+
     .imagenIndex {
-        height: 75vh !important;
+        height: 93vh !important
     }
 
     .containerHIjoProductos {
@@ -419,6 +482,7 @@ main {
 
     .imagenPorductos {
         height: 80vh !important;
+        margin-top: 46% !important;
     }
 
     .containerNietoProducto:nth-child(3) {
@@ -454,7 +518,7 @@ main {
     }
 
     .imagenDot4 {
-        width: 80% !important; 
+        width: 40% !important; 
         margin: auto !important;
     }
 
@@ -466,7 +530,7 @@ main {
 
     #mainInicioNosotros {
         position: relative !important;
-        top: 100px !important;
+        top: 13rem !important;
         left: 0 !important;
         width: 100% !important;
         padding: 1rem !important;
@@ -481,8 +545,12 @@ main {
         margin: 2% !important;
     }
 
+    .redesSocialesNavContactos {
+        margin-right: 42% !important;
+    }
+
     .containerCarruselHijo img {
-        padding-top: 24% !important;
+        padding-top: 127% !important;
     }
 
     #mainInicioEventos {
@@ -493,6 +561,10 @@ main {
         margin-top: 1rem !important;
     }
 
+    .dot4444 {
+        text-align: justify !important;
+    }
+
     #containerContactos {
         margin: 0rem auto !important;
     }
@@ -501,19 +573,14 @@ main {
         padding: 0rem;
     }
 
-    /* .col-md-6 {
-        max-width: 26rem;
-        top: 18rem;
-    } */
-
     .contact-info {
-        margin-top: 22rem !important;
+        margin-top: 28rem !important;
         text-align: center !important;
     }
 
     .containeres {
         max-width: 26rem !important;
-        top: 18rem !important;
+        top: 24rem !important;
     }
 }
 
@@ -525,10 +592,6 @@ main {
 
     #containerPadre {
         right: 0px !important;
-    }
-
-    .alfalub {
-        width: 100% !important;
     }
 
     #containerPadreNosotros {
