@@ -120,6 +120,10 @@ main {
 
 @media (min-width: 320px) and (max-width: 768px) 
 {
+    .botonPdf {
+        margin-right: -22% !important;
+    }
+
     .navbar {
         position: static !important;
     }

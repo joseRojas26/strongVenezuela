@@ -85,6 +85,10 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="text-center mt-4 botonPdf">
+                        <button class="btn btn-primary download-btn" data-pdf="/imagenesNuevas\fichas tecnicas dot3 y dot4.pdf">Ver ficha técnica DOT-3 y DOT-4</button>
+                    </div>
 
                     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -136,6 +140,7 @@
                         <h5>Refrigerantes Coolant</h5>
                         <p class="carta">ST-COOL50 es un refrigerante anticongelante formulado a base de etilenglicol e inhibidores orgánicos de corrosión. Diseñado para proporcionar protección completa a los sistemas de enfriamiento, este refrigerante viene pre diluido en una proporción de 50/50, listo para ser utilizado sin necesidad de diluciones adicionales. Ofrece una solución conveniente y efectiva para mantener la temperatura óptima del motor y proteger contra la corrosión.</p>
                     </div>
+                    <button class="btn btn-primary download-btn" data-pdf="/imagenesNuevas\fichas tecnicas refrigerantes stcool - hq - 50 50.pdf">Ver ficha técnica de Refrigerantes</button>
                 </div>
             </div>
         </div>   
@@ -177,4 +182,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<script>
+    document.querySelectorAll('.download-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const pdfUrl = button.getAttribute('data-pdf');
+            window.open(pdfUrl, '_blank');
+        });
+    });
+</script>
 </html>
